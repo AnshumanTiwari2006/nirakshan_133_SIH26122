@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+      - ./data:/app/data
+      - ./models:/app/models
+      - ./vectorstore:/app/vectorstore
+    environment:
+      - DATABASE_URL=sqlite:///./project.db
+      - LLM_PROVIDER=ollama
+      - LLM_MODEL=llama3:8b-instruct-q4_K_M
+      - LLM_BASE_URL=http://100.112.9.92:11434
+      - EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2
+      - FAISS_INDEX_PATH=./vectorstore/wbs_index
+      - CONFIDENCE_AUTO_APPROVE=0.90
+      - CONFIDENCE_HUMAN_REVIEW=0.70
+    command: uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    environment:
+      - VITE_API_URL=http://localhost:8000/api
+    depends_on:
+      - backend

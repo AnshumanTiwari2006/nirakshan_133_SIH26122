@@ -1,0 +1,151 @@
+wbs_code,level,discipline,activity_name,spec_ref,planned_start,planned_finish,duration_days,parent_wbs
+EL-L5-01,5,Electrical,Electrical Construction Package 1,SPEC-EL-PKG-01,2026-08-01,2026-08-31,31,
+EL-EQU-0001,6,Electrical,Main Pump Wiring and Hook-up,SPEC-EL-EQU-01,2026-08-06,2026-08-08,3,EL-L5-01
+EL-EQU-0002,6,Electrical,Motor Termination,SPEC-EL-EQU-02,2026-08-08,2026-08-11,4,EL-L5-01
+EL-CAB-0003,6,Electrical,Cable Tray Installation,SPEC-EL-CAB-03,2026-08-10,2026-08-14,5,EL-L5-01
+EL-CAB-0004,6,Electrical,Power Cable Pulling,SPEC-EL-CAB-04,2026-08-12,2026-08-17,6,EL-L5-01
+EL-LIG-0005,6,Electrical,Area Lighting Installation,SPEC-EL-LIG-05,2026-08-14,2026-08-20,7,EL-L5-01
+EL-EAR-0006,6,Electrical,Earthing Conductor Installation,SPEC-EL-EAR-06,2026-08-16,2026-08-23,8,EL-L5-01
+EL-PAN-0007,6,Electrical,Panel Installation and Termination,SPEC-EL-PAN-07,2026-08-18,2026-08-26,9,EL-L5-01
+EL-PAN-0008,6,Electrical,MCC Feeder Termination,SPEC-EL-PAN-08,2026-08-20,2026-08-29,10,EL-L5-01
+ME-L5-02,5,Mechanical,Mechanical Construction Package 2,SPEC-ME-PKG-02,2026-08-04,2026-09-03,31,
+ME-ROT-0009,6,Mechanical,Pump Skid Positioning,SPEC-ME-ROT-01,2026-08-25,2026-08-26,2,ME-L5-02
+ME-ROT-0010,6,Mechanical,Pump and Motor Alignment,SPEC-ME-ROT-02,2026-08-27,2026-08-29,3,ME-L5-02
+ME-MEC-0011,6,Mechanical,Spool Erection,SPEC-ME-MEC-03,2026-08-29,2026-09-01,4,ME-L5-02
+ME-ROT-0012,6,Mechanical,Compressor Package Installation,SPEC-ME-ROT-04,2026-08-31,2026-09-04,5,ME-L5-02
+ME-MEC-0013,6,Mechanical,Isolation Valve Installation,SPEC-ME-MEC-05,2026-09-02,2026-09-07,6,ME-L5-02
+ME-MEC-0014,6,Mechanical,Equipment Nozzle Orientation Check,SPEC-ME-MEC-06,2026-09-04,2026-09-10,7,ME-L5-02
+ME-COM-0015,6,Mechanical,Mechanical Completion Inspection,SPEC-ME-COM-07,2026-09-06,2026-09-13,8,ME-L5-02
+CV-L5-03,5,Civil,Civil Construction Package 3,SPEC-CV-PKG-03,2026-08-07,2026-09-06,31,
+CV-FOU-0016,6,Civil,Equipment Foundation Excavation,SPEC-CV-FOU-01,2026-09-11,2026-09-19,9,CV-L5-03
+CV-FOU-0017,6,Civil,Foundation Blinding Concrete,SPEC-CV-FOU-02,2026-09-13,2026-09-22,10,CV-L5-03
+CV-FOU-0018,6,Civil,Foundation Reinforcement Fixing,SPEC-CV-FOU-03,2026-09-15,2026-09-16,2,CV-L5-03
+CV-FOU-0019,6,Civil,Foundation Formwork Installation,SPEC-CV-FOU-04,2026-09-17,2026-09-19,3,CV-L5-03
+CV-FOU-0020,6,Civil,Equipment Foundation Concrete Pour,SPEC-CV-FOU-05,2026-09-19,2026-09-22,4,CV-L5-03
+CV-BAC-0021,6,Civil,Backfilling Around Foundation,SPEC-CV-BAC-06,2026-09-21,2026-09-25,5,CV-L5-03
+CV-CAB-0022,6,Civil,Cable Trench Construction,SPEC-CV-CAB-07,2026-09-23,2026-09-28,6,CV-L5-03
+CV-FLO-0023,6,Civil,Floor Slab Concrete Pour,SPEC-CV-FLO-08,2026-09-25,2026-10-01,7,CV-L5-03
+PI-L5-04,5,Piping,Piping Construction Package 4,SPEC-PI-PKG-04,2026-08-10,2026-09-09,31,
+PI-PIP-0024,6,Piping,Process Line Spool Erection,SPEC-PI-PIP-01,2026-09-30,2026-10-07,8,PI-L5-04
+PI-PIP-0025,6,Piping,Piping Fit-up and Tack Welding,SPEC-PI-PIP-02,2026-10-02,2026-10-10,9,PI-L5-04
+PI-TES-0026,6,Piping,Hydrostatic Pressure Testing,SPEC-PI-TES-03,2026-10-04,2026-10-13,10,PI-L5-04
+PI-PIP-0027,6,Piping,Steam Header Support Installation,SPEC-PI-PIP-04,2026-08-02,2026-08-03,2,PI-L5-04
+PI-PIP-0028,6,Piping,Valve and Flange Installation,SPEC-PI-PIP-05,2026-08-04,2026-08-06,3,PI-L5-04
+PI-TES-0029,6,Piping,Process Line Flushing,SPEC-PI-TES-06,2026-08-06,2026-08-09,4,PI-L5-04
+PI-COA-0030,6,Piping,Pipe Support Painting and Touch-up,SPEC-PI-COA-07,2026-08-08,2026-08-12,5,PI-L5-04
+IN-L5-05,5,Instrumentation,Instrumentation Construction Package 5,SPEC-IN-PKG-05,2026-08-13,2026-09-12,31,
+IN-INS-0031,6,Instrumentation,Control Cable Pull and Dressing,SPEC-IN-INS-01,2026-08-13,2026-08-18,6,IN-L5-05
+IN-INS-0032,6,Instrumentation,Instrument Junction Box Installation,SPEC-IN-INS-02,2026-08-15,2026-08-21,7,IN-L5-05
+IN-INS-0033,6,Instrumentation,Instrument Mounting,SPEC-IN-INS-03,2026-08-17,2026-08-24,8,IN-L5-05
+IN-INS-0034,6,Instrumentation,Impulse Tubing Installation,SPEC-IN-INS-04,2026-08-19,2026-08-27,9,IN-L5-05
+IN-TES-0035,6,Instrumentation,Loop Checking,SPEC-IN-TES-05,2026-08-21,2026-08-30,10,IN-L5-05
+IN-TES-0036,6,Instrumentation,Field Instrument Calibration,SPEC-IN-TES-06,2026-08-23,2026-08-24,2,IN-L5-05
+IN-INS-0037,6,Instrumentation,Control Panel Termination,SPEC-IN-INS-07,2026-08-25,2026-08-27,3,IN-L5-05
+ST-L5-06,5,Structural,Structural Construction Package 6,SPEC-ST-PKG-06,2026-08-16,2026-09-15,31,
+ST-STE-0038,6,Structural,Access Platform Fabrication,SPEC-ST-STE-01,2026-08-30,2026-09-02,4,ST-L5-06
+ST-STE-0039,6,Structural,Access Platform Erection,SPEC-ST-STE-02,2026-09-01,2026-09-05,5,ST-L5-06
+ST-STE-0040,6,Structural,Structural Steel Beam Erection,SPEC-ST-STE-03,2026-09-03,2026-09-08,6,ST-L5-06
+ST-EQU-0041,6,Structural,Equipment Support Frame Erection,SPEC-ST-EQU-04,2026-09-05,2026-09-11,7,ST-L5-06
+ST-STE-0042,6,Structural,Maintenance Stair Erection,SPEC-ST-STE-05,2026-09-07,2026-09-14,8,ST-L5-06
+ST-STE-0043,6,Structural,Handrail Installation,SPEC-ST-STE-06,2026-09-09,2026-09-17,9,ST-L5-06
+ST-STE-0044,6,Structural,Grating Installation,SPEC-ST-STE-07,2026-09-11,2026-09-20,10,ST-L5-06
+IN-INS-0050,6,Instrumentation,Instrument Junction Box Installation,SPEC-IN-INS-11,2026-08-11,2026-08-12,2,
+IN-INS-0051,6,Instrumentation,Instrument Mounting,SPEC-IN-INS-12,2026-08-14,2026-08-16,3,
+IN-INS-0052,6,Instrumentation,Impulse Tubing Installation,SPEC-IN-INS-13,2026-08-17,2026-08-20,4,
+IN-TES-0053,6,Instrumentation,Loop Checking,SPEC-IN-TES-14,2026-08-20,2026-08-24,5,
+IN-TES-0054,6,Instrumentation,Field Instrument Calibration,SPEC-IN-TES-15,2026-08-23,2026-08-28,6,
+IN-INS-0055,6,Instrumentation,Control Panel Termination,SPEC-IN-INS-16,2026-08-26,2026-09-01,7,
+IN-INS-0056,6,Instrumentation,Control Cable Pull and Dressing,SPEC-IN-INS-17,2026-08-29,2026-09-05,8,
+IN-INS-0057,6,Instrumentation,Instrument Junction Box Installation,SPEC-IN-INS-18,2026-09-01,2026-09-09,9,
+IN-INS-0058,6,Instrumentation,Instrument Mounting,SPEC-IN-INS-19,2026-09-04,2026-09-13,10,
+IN-INS-0059,6,Instrumentation,Impulse Tubing Installation,SPEC-IN-INS-20,2026-09-07,2026-09-17,11,
+ST-L5-05,5,Structural,Structural Construction Package 5,SPEC-ST-PKG-05,2026-08-11,2026-09-10,31,
+ST-STE-0061,6,Structural,Handrail Installation,SPEC-ST-STE-02,2026-09-13,2026-09-15,3,ST-L5-05
+ST-STE-0062,6,Structural,Grating Installation,SPEC-ST-STE-03,2026-09-16,2026-09-19,4,
+ST-STE-0063,6,Structural,Access Platform Fabrication,SPEC-ST-STE-04,2026-09-19,2026-09-23,5,
+ST-STE-0064,6,Structural,Access Platform Erection,SPEC-ST-STE-05,2026-09-22,2026-09-27,6,
+ST-STE-0065,6,Structural,Structural Steel Beam Erection,SPEC-ST-STE-06,2026-09-25,2026-10-01,7,
+ST-EQU-0066,6,Structural,Equipment Support Frame Erection,SPEC-ST-EQU-07,2026-09-28,2026-10-05,8,
+ST-STE-0067,6,Structural,Maintenance Stair Erection,SPEC-ST-STE-08,2026-10-01,2026-10-09,9,
+ST-STE-0068,6,Structural,Handrail Installation,SPEC-ST-STE-09,2026-10-04,2026-10-13,10,
+ST-STE-0069,6,Structural,Grating Installation,SPEC-ST-STE-10,2026-10-07,2026-10-17,11,
+ST-STE-0070,6,Structural,Access Platform Fabrication,SPEC-ST-STE-11,2026-08-01,2026-08-02,2,
+ST-STE-0071,6,Structural,Access Platform Erection,SPEC-ST-STE-12,2026-08-04,2026-08-06,3,
+EL-EQU-0072,6,Electrical,Main Pump Wiring and Hook-up,SPEC-EL-EQU-13,2026-08-07,2026-08-10,4,
+EL-EQU-0073,6,Electrical,Motor Termination,SPEC-EL-EQU-14,2026-08-10,2026-08-14,5,
+EL-CAB-0074,6,Electrical,Cable Tray Installation,SPEC-EL-CAB-15,2026-08-13,2026-08-18,6,
+EL-L5-06,5,Electrical,Electrical Construction Package 6,SPEC-EL-PKG-06,2026-08-13,2026-09-12,31,
+EL-LIG-0076,6,Electrical,Area Lighting Installation,SPEC-EL-LIG-17,2026-08-19,2026-08-26,8,EL-L5-06
+EL-EAR-0077,6,Electrical,Earthing Conductor Installation,SPEC-EL-EAR-18,2026-08-22,2026-08-30,9,
+EL-PAN-0078,6,Electrical,Panel Installation and Termination,SPEC-EL-PAN-19,2026-08-25,2026-09-03,10,
+EL-PAN-0079,6,Electrical,MCC Feeder Termination,SPEC-EL-PAN-20,2026-08-28,2026-09-07,11,
+EL-EQU-0080,6,Electrical,Main Pump Wiring and Hook-up,SPEC-EL-EQU-01,2026-08-31,2026-09-01,2,
+EL-EQU-0081,6,Electrical,Motor Termination,SPEC-EL-EQU-02,2026-09-03,2026-09-05,3,
+EL-CAB-0082,6,Electrical,Cable Tray Installation,SPEC-EL-CAB-03,2026-09-06,2026-09-09,4,
+EL-CAB-0083,6,Electrical,Power Cable Pulling,SPEC-EL-CAB-04,2026-09-09,2026-09-13,5,
+ME-ROT-0084,6,Mechanical,Pump Skid Positioning,SPEC-ME-ROT-05,2026-09-12,2026-09-17,6,
+ME-ROT-0085,6,Mechanical,Pump and Motor Alignment,SPEC-ME-ROT-06,2026-09-15,2026-09-21,7,
+ME-MEC-0086,6,Mechanical,Spool Erection,SPEC-ME-MEC-07,2026-09-18,2026-09-25,8,
+ME-ROT-0087,6,Mechanical,Compressor Package Installation,SPEC-ME-ROT-08,2026-09-21,2026-09-29,9,
+ME-MEC-0088,6,Mechanical,Isolation Valve Installation,SPEC-ME-MEC-09,2026-09-24,2026-10-03,10,
+ME-MEC-0089,6,Mechanical,Equipment Nozzle Orientation Check,SPEC-ME-MEC-10,2026-09-27,2026-10-07,11,
+ME-L5-07,5,Mechanical,Mechanical Construction Package 7,SPEC-ME-PKG-07,2026-08-15,2026-09-14,31,
+ME-ROT-0091,6,Mechanical,Pump Skid Positioning,SPEC-ME-ROT-12,2026-10-03,2026-10-05,3,ME-L5-07
+ME-ROT-0092,6,Mechanical,Pump and Motor Alignment,SPEC-ME-ROT-13,2026-10-06,2026-10-09,4,
+ME-MEC-0093,6,Mechanical,Spool Erection,SPEC-ME-MEC-14,2026-10-09,2026-10-13,5,
+ME-ROT-0094,6,Mechanical,Compressor Package Installation,SPEC-ME-ROT-15,2026-08-03,2026-08-08,6,
+ME-MEC-0095,6,Mechanical,Isolation Valve Installation,SPEC-ME-MEC-16,2026-08-06,2026-08-12,7,
+CV-FOU-0096,6,Civil,Equipment Foundation Excavation,SPEC-CV-FOU-17,2026-08-09,2026-08-16,8,
+CV-FOU-0097,6,Civil,Foundation Blinding Concrete,SPEC-CV-FOU-18,2026-08-12,2026-08-20,9,
+CV-FOU-0098,6,Civil,Foundation Reinforcement Fixing,SPEC-CV-FOU-19,2026-08-15,2026-08-24,10,
+CV-FOU-0099,6,Civil,Foundation Formwork Installation,SPEC-CV-FOU-20,2026-08-18,2026-08-28,11,
+CV-FOU-0100,6,Civil,Equipment Foundation Concrete Pour,SPEC-CV-FOU-01,2026-08-21,2026-08-22,2,
+CV-BAC-0101,6,Civil,Backfilling Around Foundation,SPEC-CV-BAC-02,2026-08-24,2026-08-26,3,
+CV-CAB-0102,6,Civil,Cable Trench Construction,SPEC-CV-CAB-03,2026-08-27,2026-08-30,4,
+CV-FLO-0103,6,Civil,Floor Slab Concrete Pour,SPEC-CV-FLO-04,2026-08-30,2026-09-03,5,
+CV-FOU-0104,6,Civil,Equipment Foundation Excavation,SPEC-CV-FOU-05,2026-09-02,2026-09-07,6,
+CV-L5-08,5,Civil,Civil Construction Package 8,SPEC-CV-PKG-08,2026-08-17,2026-09-16,31,
+CV-FOU-0106,6,Civil,Foundation Reinforcement Fixing,SPEC-CV-FOU-07,2026-09-08,2026-09-15,8,CV-L5-08
+CV-FOU-0107,6,Civil,Foundation Formwork Installation,SPEC-CV-FOU-08,2026-09-11,2026-09-19,9,
+PI-PIP-0108,6,Piping,Steam Header Support Installation,SPEC-PI-PIP-09,2026-09-14,2026-09-23,10,
+PI-PIP-0109,6,Piping,Valve and Flange Installation,SPEC-PI-PIP-10,2026-09-17,2026-09-27,11,
+PI-TES-0110,6,Piping,Process Line Flushing,SPEC-PI-TES-11,2026-09-20,2026-09-21,2,
+PI-COA-0111,6,Piping,Pipe Support Painting and Touch-up,SPEC-PI-COA-12,2026-09-23,2026-09-25,3,
+PI-PIP-0112,6,Piping,Process Line Spool Erection,SPEC-PI-PIP-13,2026-09-26,2026-09-29,4,
+PI-PIP-0113,6,Piping,Piping Fit-up and Tack Welding,SPEC-PI-PIP-14,2026-09-29,2026-10-03,5,
+PI-TES-0114,6,Piping,Hydrostatic Pressure Testing,SPEC-PI-TES-15,2026-10-02,2026-10-07,6,
+PI-PIP-0115,6,Piping,Steam Header Support Installation,SPEC-PI-PIP-16,2026-10-05,2026-10-11,7,
+PI-PIP-0116,6,Piping,Valve and Flange Installation,SPEC-PI-PIP-17,2026-10-08,2026-10-15,8,
+PI-TES-0117,6,Piping,Process Line Flushing,SPEC-PI-TES-18,2026-08-02,2026-08-10,9,
+PI-COA-0118,6,Piping,Pipe Support Painting and Touch-up,SPEC-PI-COA-19,2026-08-05,2026-08-14,10,
+PI-PIP-0119,6,Piping,Process Line Spool Erection,SPEC-PI-PIP-20,2026-08-08,2026-08-18,11,
+IN-L5-09,5,Instrumentation,Instrumentation Construction Package 9,SPEC-IN-PKG-09,2026-08-19,2026-09-18,31,
+IN-INS-0121,6,Instrumentation,Instrument Mounting,SPEC-IN-INS-02,2026-08-14,2026-08-16,3,IN-L5-09
+IN-INS-0122,6,Instrumentation,Impulse Tubing Installation,SPEC-IN-INS-03,2026-08-17,2026-08-20,4,
+IN-TES-0123,6,Instrumentation,Loop Checking,SPEC-IN-TES-04,2026-08-20,2026-08-24,5,
+IN-TES-0124,6,Instrumentation,Field Instrument Calibration,SPEC-IN-TES-05,2026-08-23,2026-08-28,6,
+IN-INS-0125,6,Instrumentation,Control Panel Termination,SPEC-IN-INS-06,2026-08-26,2026-09-01,7,
+IN-INS-0126,6,Instrumentation,Control Cable Pull and Dressing,SPEC-IN-INS-07,2026-08-29,2026-09-05,8,
+IN-INS-0127,6,Instrumentation,Instrument Junction Box Installation,SPEC-IN-INS-08,2026-09-01,2026-09-09,9,
+IN-INS-0128,6,Instrumentation,Instrument Mounting,SPEC-IN-INS-09,2026-09-04,2026-09-13,10,
+IN-INS-0129,6,Instrumentation,Impulse Tubing Installation,SPEC-IN-INS-10,2026-09-07,2026-09-17,11,
+IN-TES-0130,6,Instrumentation,Loop Checking,SPEC-IN-TES-11,2026-09-10,2026-09-11,2,
+IN-TES-0131,6,Instrumentation,Field Instrument Calibration,SPEC-IN-TES-12,2026-09-13,2026-09-15,3,
+ST-STE-0132,6,Structural,Grating Installation,SPEC-ST-STE-13,2026-09-16,2026-09-19,4,
+ST-STE-0133,6,Structural,Access Platform Fabrication,SPEC-ST-STE-14,2026-09-19,2026-09-23,5,
+ST-STE-0134,6,Structural,Access Platform Erection,SPEC-ST-STE-15,2026-09-22,2026-09-27,6,
+ST-L5-10,5,Structural,Structural Construction Package 10,SPEC-ST-PKG-10,2026-08-21,2026-09-20,31,
+ST-EQU-0136,6,Structural,Equipment Support Frame Erection,SPEC-ST-EQU-17,2026-09-28,2026-10-05,8,ST-L5-10
+ST-STE-0137,6,Structural,Maintenance Stair Erection,SPEC-ST-STE-18,2026-10-01,2026-10-09,9,
+ST-STE-0138,6,Structural,Handrail Installation,SPEC-ST-STE-19,2026-10-04,2026-10-13,10,
+ST-STE-0139,6,Structural,Grating Installation,SPEC-ST-STE-20,2026-10-07,2026-10-17,11,
+ST-STE-0140,6,Structural,Access Platform Fabrication,SPEC-ST-STE-01,2026-08-01,2026-08-02,2,
+ST-STE-0141,6,Structural,Access Platform Erection,SPEC-ST-STE-02,2026-08-04,2026-08-06,3,
+ST-STE-0142,6,Structural,Structural Steel Beam Erection,SPEC-ST-STE-03,2026-08-07,2026-08-10,4,
+ST-EQU-0143,6,Structural,Equipment Support Frame Erection,SPEC-ST-EQU-04,2026-08-10,2026-08-14,5,
+EL-EQU-0144,6,Electrical,Main Pump Wiring and Hook-up,SPEC-EL-EQU-05,2026-08-13,2026-08-18,6,
+EL-EQU-0145,6,Electrical,Motor Termination,SPEC-EL-EQU-06,2026-08-16,2026-08-22,7,
+EL-CAB-0146,6,Electrical,Cable Tray Installation,SPEC-EL-CAB-07,2026-08-19,2026-08-26,8,
+EL-CAB-0147,6,Electrical,Power Cable Pulling,SPEC-EL-CAB-08,2026-08-22,2026-08-30,9,
+EL-LIG-0148,6,Electrical,Area Lighting Installation,SPEC-EL-LIG-09,2026-08-25,2026-09-03,10,
+EL-EAR-0149,6,Electrical,Earthing Conductor Installation,SPEC-EL-EAR-10,2026-08-28,2026-09-07,11,
