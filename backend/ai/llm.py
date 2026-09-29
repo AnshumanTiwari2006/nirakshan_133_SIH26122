@@ -10,7 +10,7 @@ logger = logging.getLogger(__name__)
 class LLMService:
     def __init__(self):
         self.provider = os.getenv("LLM_PROVIDER", "ollama")
-        self.model = os.getenv("LLM_MODEL", "llama3:8b-instruct-q4_K_M")
+        self.model = os.getenv("LLM_MODEL", "llama3.1:8b")
         self.base_url = os.getenv("LLM_BASE_URL", "http://localhost:11434")
         self.timeout = 120.0
         
